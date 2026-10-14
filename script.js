@@ -97,7 +97,7 @@ function loadQuestion() {
 
         btn.addEventListener('click', () => {
             userAnswers[currentIdx] = optIndex;
-            // loadQuestion();
+            loadQuestion();
         });
 
         optionsBox.appendChild(btn);
