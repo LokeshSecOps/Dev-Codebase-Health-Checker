@@ -1,0 +1,29 @@
+.traffic-light {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  transition: 0.3s ease;
+}
+
+.glow-red {
+  background-color: #ef4444 !important;
+  box-shadow: 0 0 15px #ef4444;
+}
+
+.glow-yellow {
+  background-color: #f59e0b !important;
+  box-shadow: 0 0 15px #f59e0b;
+}
+
+.glow-green {
+  background-color: #10b981 !important;
+  box-shadow: 0 0 15px #10b981;
+}
+
+#review-box::-webkit-scrollbar {
+  width: 4px;
+}
+#review-box::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 2px;
+}
